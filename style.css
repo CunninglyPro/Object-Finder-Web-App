@@ -1,0 +1,48 @@
+body {
+    background: #F1F2B5;
+    background: -webkit-linear-gradient(to right, #135058, #F1F2B5);
+    background: linear-gradient(to right, #135058, #F1F2B5);
+}
+
+.heading {
+    width: 100%;
+    height: 100px;
+    margin-top: 0;
+    padding-top: 1px;
+    border-radius: 10px;
+    background-color: #34c3e1;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#note {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.input {
+    width: 300px;
+    height: 100px;
+    margin-top: 13px;
+    padding: 15px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#start_btn {
+    margin-top: 12px;
+    font-size: 17px;
+}
+
+.statuses {
+    margin: 10px;
+}
+
+canvas {
+    margin-top: 275px;
+    border: 6px ridge lightblue;
+    border-radius: 10px;
+}
